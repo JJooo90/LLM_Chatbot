@@ -7,6 +7,10 @@
 AI 서비스를 1인 기획 및 개발한 프로젝트입니다.  
 
 ## Project Task
+- Chatbot 기본 모델은 Transformer 모델을 적용, 추가 학습은 한국어대화데이터셋(오피스데이터)를 사용
+| batch size = 64  
+| buffer size = 20000  
+|epochs = 50  
 - 데이터 수집 및 가공
 - 의도 분류 모델 학습
 - 질의 응답 내용 작성과 임베딩후 pt파일로 저장
@@ -22,4 +26,7 @@ React로 구현한 어플리케이션에서 챗봇 서비스를 시연했습니�
 
 <!--
 참고 URL https://seokii.tistory.com/146
+courpus github : 
+1. https://github.com/ko-nlp/Korpora
+2. https://github.com/songys/AwesomeKorean_Data
 -->
