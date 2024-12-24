@@ -6,8 +6,13 @@
 유튜버 AI 질의응답 챗봇 서비스 개발은  
 AI 서비스를 1인 기획 및 개발한 프로젝트입니다.  
 
+## Background knowledge
+Llama 2: Open Foundation and Fine-Tuned Chat Models https://arxiv.org/pdf/2307.09288
+<!-- - LLaMA (https://brunch.co.kr/@harryban0917/293) -->
+<!-- https://docs.rbln.ai/ko/software/optimum/tutorial/llama_7b.html -->
 ## Project Task
-- Chatbot 기본 모델은 Transformer 모델을 적용, 추가 학습은 한국어대화데이터셋(오피스데이터)를 사용
+- Chatbot 기본 모델은 LLAMA2 모델을 적용, 추가 학습은 한국어대화데이터셋(오피스데이터)를 사용
+- Vector DB 사용 예정(학습 데이터 저장용 및 Chatbot 개인별 로그 저장용)
 | batch size = 64  
 | buffer size = 20000  
 |epochs = 50  
@@ -29,4 +34,6 @@ React로 구현한 어플리케이션에서 챗봇 서비스를 시연했습니�
 courpus github : 
 1. https://github.com/ko-nlp/Korpora
 2. https://github.com/songys/AwesomeKorean_Data
+
+3. LAMMA2 Chatbot 관련 : https://dwin.tistory.com/150
 -->
